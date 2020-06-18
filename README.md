@@ -39,7 +39,7 @@ Created topic test.
 ```
 - Check topics
 ```
-bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic trump --from-beginning
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 ## Run
 
